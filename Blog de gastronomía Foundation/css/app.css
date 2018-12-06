@@ -1,0 +1,23 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: #fff;
+
+}
+
+h5, .span {
+    color: #6E5773;
+}
+
+.mujer, .hombre {
+    width: 70px;
+}
+
+i {
+    color: #e9e2d0;
+}
+
+
+
