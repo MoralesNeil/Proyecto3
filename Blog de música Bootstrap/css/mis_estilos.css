@@ -1,0 +1,93 @@
+
+body {
+    background-color: brown;
+}
+
+/* HEADER */
+
+.fila-logo-redes {
+    background-color: #fff;
+}
+
+.logo {
+    width: 150px;
+}
+
+/* BARRA DE NAVEGACIÓN */
+.nav-link {
+    background-color: #feb062;
+    height: 5.3rem;
+}
+
+.link {
+    width: 40%;
+    height: 5.3rem;
+    margin-left: 30%;
+    padding-top: 1.5rem;
+}
+
+.link:hover, a:hover {
+    background-color: #fff;
+    text-decoration: none !important;
+    color: black;
+}
+
+/* CONTENIDO */
+.fila-contenido-busqueda {
+    margin-top: 3rem;
+    background-color: #fff;
+}
+
+.floyd, .metallica {
+    width: 100%;
+}
+
+.silueta {
+    width: 60px;
+}
+
+.fila-comentario {
+    margin-top: 2rem;
+}
+
+.div-comentario {
+    margin-top: 1rem;
+}
+/* BÚSQUEDA */
+.busqueda {
+    margin-top: 3rem;
+}
+
+.list-group {
+    margin-top: 2rem;
+}
+
+/*MEDIA QUERY*/
+
+@media (min-width: 768px) {
+
+    .fila-logo-redes {
+        height: 27rem;
+    } 
+
+    .columna-redes {
+        margin-top: 150px;
+        text-align: right;
+    }
+
+    .columna-logo {
+        margin-top: 65px;
+    }
+
+    .link {
+        width: 60%;
+        height: 5.3rem;
+        margin-left: 20%;
+        padding-top: 1.5rem;
+    }
+
+    .div-imagen {
+        margin-top: 6rem;
+    }
+}
+
