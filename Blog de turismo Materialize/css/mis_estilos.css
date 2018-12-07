@@ -1,0 +1,93 @@
+body {
+  background-color: #90caf9;
+  background-image: url(../img/paisaje.jpg);
+  background-repeat: no-repeat;
+  background-position: 0px 180px;
+  background-attachment: fixed;
+}
+
+/* Cabecera */
+
+.header {
+  margin-top: 2rem;
+}
+
+.titulo {
+  margin-top: 6rem;
+}
+
+h3, h5 {
+  color: #ffffff;
+}
+
+/* Redes sociales */
+
+.social ul li {
+  margin-top: 20px;
+}
+
+.social ul li a{
+  color: #ffffff;
+  padding: 10px 15px;
+}
+
+.social ul li .icon-facebook {background-color: #0d47a1}
+.social ul li .icon-twitter {background-color: #90caf9}
+.social ul li .icon-youtube {background-color: #d50000}
+.social ul li .icon-google-plus {background-color: #ff7043}
+.social ul li .icon-instagram {background-color: #f50057}
+.social ul li .icon-whatsapp {background-color: #00c853}
+
+/* Estilos para imagenes */
+
+/* Imagen/logo */
+[src="img/img1.jpg"] {
+  border-radius: 10px;
+}
+/* Imagen de entrada del blog */
+[src="img/img8.jpg"] {
+  width: 40%;
+  float: left;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-right: 3rem;
+}
+/* Imágen perfil del autor */
+[src="img/img9.jpg"] {
+  width: 50%;
+  margin-top: 2rem;
+}
+
+/* Imágenes de galería */
+
+.materialboxed {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+/* Blog */
+
+.texto {
+  text-align: justify;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/* Comentarios */
+
+label, i {
+  color: #ffffff!important;
+}
+
+/* Botón de enviar */
+
+.enviar {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+
